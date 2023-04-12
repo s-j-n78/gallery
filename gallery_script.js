@@ -31,7 +31,7 @@ var i = 0;
 	});
 
 function displayImage(row, images){
-			
+	// https://medium.com/swlh/javascript-working-with-images-c303ab4bd3df		
 	images.getDownloadURL().then(function(url){
 	//document.querySelector(".image").src = ""+ url +"";
 	console.log(url);
